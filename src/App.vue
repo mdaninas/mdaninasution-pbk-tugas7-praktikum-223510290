@@ -80,6 +80,12 @@ const toggleCompletion = (id) => {
     font-optical-sizing: auto;
     font-style: normal;
 }
+span>input{
+  scale: 1.5;
+}
+span>button {
+  scale: 1.5;
+}
 .red>div>p{
   font-size: 45px;
   margin-bottom: 0;
@@ -115,7 +121,7 @@ const toggleCompletion = (id) => {
 
 .input {
   display: flex;
-  gap: 20px;
+  gap: 80px;
 }
 
 .top {
@@ -127,8 +133,8 @@ const toggleCompletion = (id) => {
 }
 
 input[type="checkbox"] {
-  margin-right: 10px;
-  scale: 1.5;
+  margin-right: 20px;
+  scale: 2.5;
 }
 
 .list {
@@ -139,6 +145,7 @@ input[type="checkbox"] {
   overflow: auto;
   padding-right: 20px;
   color: wheat;
+  font-size: 35px;
   font-family: "Abel", sans-serif;
     font-weight: 700;
     font-style: normal;
